@@ -90,7 +90,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-serif text-center mb-12">Access</h2>
           <div className="grid md:grid-cols-2 gap-8 items-start">
-            <div className="h-[400px] bg-muted rounded-lg">{/* Google Maps iframe would go here */}</div>
+            <div className="h-[400px] bg-muted rounded-lg"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12963.30170589097!2d139.75432073529774!3d35.68130028953324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2smy!4v1740059104162!5m2!1sja!2smy" width="600" height="450" loading="lazy"></iframe></div>
             <div className="space-y-6">
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
